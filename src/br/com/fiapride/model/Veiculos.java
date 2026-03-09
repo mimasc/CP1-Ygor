@@ -2,9 +2,9 @@ package br.com.fiapride.model;
 
  public class Veiculos {
 // encapsulamento dos atributos
- private String individuo;
- private String placa;
- private int gasolina;
+ private String individuo; //dono do carro
+ private String placa; //placa do carro
+ private int gasolina; //quantidade de gasolina no tanque 
 
  // operações
  public void adicionarGasolina(double v) {
